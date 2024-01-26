@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test ORG_HRM">
+    <test name="ITest ORG_HRM1">
+        <classes>
+            <class name="Test_Run.Test_AdminPageUserManagement" >
+              <methods>
+                  <include name="typeForHint"/>
+              </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
